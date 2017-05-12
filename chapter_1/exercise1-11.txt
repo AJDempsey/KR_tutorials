@@ -1,0 +1,31 @@
+Test data for word counting program:
+
+Test 1:
+The quick brown fox jumps over the lazy dog.\EOF
+Expected output:
+0 9 44
+
+Test 2:
+Test\EOF
+Expected output:
+0 1 4
+
+Test 3:
+\EOF
+Expected output:
+0 0 0
+
+Test 4:
+Test\n\EOF
+Expected output:
+1 1 5
+
+Test 5:
+\t\t\EOF
+Expected output:
+0 0 2
+
+Test 6:
+\n\n\EOF
+Expect output:
+2 0 2
